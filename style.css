@@ -1,0 +1,21 @@
+body {
+  padding: 20px;
+}
+
+table { /*테이블*/
+  border-collapse: collapse; /*테두리 겹치지 않게*/
+  border-spacing: 0; /*표 사이 공간을 0*/
+}
+
+td, th {  /*테이블의 각 셀*/
+  border: 1px solid black; /*테두리*/
+  padding: 10px; /*셀 안쪽여백백*/
+}
+
+tbody tr:hover {
+  background-color: #faf1ff; /* 마우스 올리면 연한 파란색 */
+}
+
+header, nav, main, section, footer {
+  margin-bottom: 30px; 
+}
